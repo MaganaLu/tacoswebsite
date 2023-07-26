@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "src": "https://picsum.photos/id/237/200/300",
+      "alt": "meme",
+      "id":"0" 
+    },
+    {
+      "alt": "boinmg",
+      "src": "https://picsum.photos/id/167/200/310",
+      "id": "1"
+    },
+    {
+      "alt": "breh",
+      "src": "https://picsum.photos/id/199/200/310",
+      "id": "2"
+    }
+
+
+  ]
+}
+
+
