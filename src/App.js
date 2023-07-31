@@ -1,21 +1,20 @@
-﻿import logo from './logo.svg';
-import './App.css';
-//import pic from './pictures/skeleton2.jpg';
-
-import Carousel  from "./components/Carousel.js";
-import slides from "./data/carouselData.json"
+﻿import './App.css';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import About from "./pages/About"
 
 function App() {
+    return (
+        <BrowserRouter>
+            <Navbar />
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/about' element={<About />} />
 
-
-
-  return (
-      
-    <div className="App">
-    <Carousel />
-  
-    </div>
-  );
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
