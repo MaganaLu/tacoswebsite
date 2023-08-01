@@ -1,13 +1,15 @@
 .mid {
-    background-color: white; 
+    background-color: #557A46;
     border-width: 2px;
     display: inline-block;
-    width: 63%;
+    width: 69%;
     margin: auto;
+    font-size: 18px;
 }
 
 .navbar {
     display: inline-block;
+    
 }
 
 
@@ -15,45 +17,34 @@
 
     .navbar li {
         list-style: none;
+        
         display: inline-block;
         margin: auto;
     }
 
         .navbar li a {
             text-decoration: none;
-            color: rgb(29, 25, 231);
+            color:white;
             font-size: 18px;
             padding: 8px 20px;
         }
 
             .navbar li a:hover {
-                color: rgb(151, 7, 247);
-                border: darkmagenta;
+                color: #F2EE9D;
                 border-radius: 2px;
-                font-size: 20px;
+                font-size: 18px;
             }
 
-            .navbar li a:active {
-                background-color: deepskyblue;
-                border-radius: 5px;
-            }
+            
+
 
 .right {
-    background-color: white;
+    background-color: #557A46;
     display: inline-block;
     width: 8%;
     font-size: 18px;
     padding: 18px 26px;
-    color: #1d19e7;
-}
-
-.right {
-    background-color: white;
-    display: inline-block;
-    width: 8%;
-    font-size: 18px;
-    padding: 18px 26px;
-    color: #1d19e7;
+    color: #F2EE9D;
 }
 
     .right a {
@@ -65,12 +56,12 @@
     }
 
 .left {
-    background-color: White;
+    background-color: #557A46;
     display: inline-block;
     width: 17%;
     font-size: 18px;
     padding: 18px 17px;
-    color: #1d19e7;
+    color: #F2EE9D;
 }
 
     .left a {
