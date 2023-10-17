@@ -1,13 +1,21 @@
 import React from 'react';
+import './About.css';
+import pic from '../pictures/skeleton2.jpg';
 
 const About = () => {
     return (
-        <div>
-            <h3>About</h3>
-            <div>
-                <img alt = "r"src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg?resize=750px:*" />
-                <img src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-            </div>
+        <div class="wrapper">
+            <article class="main">
+                <img alt="meme" src={pic} />
+                <img alt="meme" src={pic} />
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+            </article>
+            <aside class="aside aside-1">
+                <img alt="meme" src={pic} />
+                
+            </aside>
+            <aside class="aside aside-2">Aside 2</aside>
+            <footer class="footer">Footer</footer>
         </div>
     );
 }

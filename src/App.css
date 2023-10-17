@@ -28,8 +28,145 @@
 .carousel-container{
     background: #f1f1f1;
     display:flex;
+    height:10%;
     flex-wrap:nowrap;
     overflow:hidden;
+    width:100%;
+}
+
+.head-text {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 15%;
+    color:red;
+}
+
+.article {
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 33%;
+    display: grid;
+    place-items: left;
+}
+.container {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+.container2 {
+    position: relative;
+    height: 50%;
+    width:33.33%;
+}
+
+.containerBox {
+    position: relative;
+    display: inline-block;
+    width:33.33%
+}
+.text-box {
+    position: absolute;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+    .text-box:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+.thirdRowWelcome{
+    font-size:100px;
+    text-align:center;
+}
+
+.thirdRowContainerBox {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    align-content:center;
+}
+.thirdRowContainerBox2 {
+    position:absolute;
+    display: inline-block;
+    width: 50%;
+    align-content: center;
+    text-align:center;
+}
+.thirdRowText {
+    color: #e53f51;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:2%;
+}
+.thirdRowWelcome {
+    margin-top:25%;
+    font-size:3.2vw;
+    font-family: 'Passion One', sans-serif;
+}
+.allContainer{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    flex-shrink:3;
+   
+}
+
+
+.button {
+    padding: 1% 1%;
+    font-size: 1.2vw;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #e53f51;
+    border: none;
+    border-radius: 25px;
+    width: 25%;
+    height: 20%;
+    transition: 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+    .button:hover {
+        background-color: black;
+    }
+
+h4 {
+    display: inline-block;
+    font-size: 20px; /*or whatever you want*/
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.header {
+    font-size: 80px;
+    color: white;
+    text-align: left;
 }
 
 .carousel-item{
@@ -37,6 +174,7 @@
     min-width:100%;
     width:100%;
     display:flex;
+    align-items:center;
     align-items:center;
     justify-content:center;
     transition: 1s cubic-bezier(0.39,0.575,0.565,1); 
