@@ -30,15 +30,16 @@ const About = () => {
     };
 
     return (
-        <div class="wrapper">
-            <article class="main">
+        <div class="parent">
+
+            <div class="carousel-item">
                 <Carousel
                     additionalTransfrom={0}
                     arrows
                     autoPlaySpeed={3000}
                     centerMode={false}
                     className=""
-                    containerClass="container"
+                    containerClass=""
                     dotListClass=""
                     draggable
                     focusOnSelect={false}
@@ -59,7 +60,7 @@ const About = () => {
                     sliderClass=""
                     slidesToSlide={1}
                     swipeable
-                    display= "grid"
+                    display="grid"
                 >
 
                     <img
@@ -81,30 +82,36 @@ const About = () => {
                         }}
                     />
                 </Carousel>
-            </article>
-            <aside class="aside aside-1">
-                Aside 1
-                <img alt="meme" src={pic2} />
-            </aside>
+            </div>
 
-            <aside class="aside aside-1">
-                Aside 1
-                <img alt="meme" src={pic2} />
-            </aside>
+            <div class="container">
+                
+                <img alt="" class="img-item" src={ pic2 }></img>
 
-            <aside class="aside aside-1">
-                Aside 1
-                <img alt="meme" src={pic2} />
-            </aside>
+                <img alt="" class="img-item" src={pic2}></img>
 
-            
+                <img alt="" class="img-item" src={pic2}></img>
 
-            <div class="break"></div>
-            <aside class="aside aside-3">
-                Aside 3
-                <img alt="meme" src={pic2} />
-            </aside>
-            <footer class="footer">Footer</footer>
+
+                <div class="item">
+                    LOL
+                </div>
+                <div class="item">
+                    LOL
+                </div>
+                <div class="item">
+                    LOL
+                </div>
+                <div class="item">
+                    LOL
+                </div>
+                <div class="break"></div>
+                <div class="item">
+                    LOL
+                </div>
+
+
+            </div>
         </div>
     );
 }
