@@ -92,25 +92,22 @@ const About = () => {
 
                 <img alt="" class="img-item" src={pic2}></img>
 
+                <img alt="" class="half-img-item" src={pic2}></img>
 
-                <div class="item">
-                    LOL
-                </div>
-                <div class="item">
-                    LOL
-                </div>
-                <div class="item">
-                    LOL
-                </div>
-                <div class="item">
-                    LOL
-                </div>
-                <div class="break"></div>
-                <div class="item">
-                    LOL
+                <div class="half-item">
+                    <p>Welcome</p>
+                    <p style={{ width: '20em', textAlign:'center' }}>Tacos El Gordo has a passion for delivering great-tasting Mexican Tacos. We have been in the food service industry for over 40 years, opening our first restaurant in 1972.</p>
+                    <button type="button">Click Me!</button>
                 </div>
 
+                <div class="half-item" style={{ height: '500px', backgroundImage: 'url(' + pic + ')', width: '100%' }}>
+                    <p1 style={{textAlign: "left" }}>More Than Tacos</p1>
+                </div>
+                
+                {/*  <img alt="" class="half-img-item" src={pic2}></img> */}
 
+                
+                
             </div>
         </div>
     );

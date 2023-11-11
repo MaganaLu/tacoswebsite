@@ -7,13 +7,17 @@ import About from "./pages/About"
 function App() {
     return (
         <BrowserRouter>
+        { /* Top of the top screen */}
+        <div>lol</div>
             <Navbar />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />
-
+                
             </Routes>
+            <footer>LOL</footer>
         </BrowserRouter>
+        
     );
 }
 

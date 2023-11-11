@@ -1,12 +1,14 @@
 import React from 'react';
 import "./Navbar.css"
 import { Link } from "react-router-dom";
+import pic from '../pictures/skeleton2.jpg';
 const Navbar = () => {
     return (
         <header class="header">
-            <div class="left">
-                <img alt= "El Tacon" href="#" src= ""></img>
-            </div>
+            <div class="container">
+
+            <img class= "item" alt="El Tacon" href="#" src={pic}></img>
+            
             <div class="mid">
                 <ul class="navbar">
                     <li>
@@ -22,11 +24,9 @@ const Navbar = () => {
                         <Link to="/catering">Catering</Link>
                     </li>
                 </ul>
-
+                </div>
             </div>
-            <div class="right">
-                <a href="#">Welcome</a>
-            </div>
+            
 
         </header>
     );
