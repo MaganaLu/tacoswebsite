@@ -2,8 +2,13 @@ import React from 'react';
 import "./Navbar.css"
 import { Link } from "react-router-dom";
 import pic from '../pictures/skeleton2.jpg';
+
+
+
 const Navbar = () => {
     return (
+        
+
         <header class="header">
             <div class="container">
 
@@ -12,16 +17,16 @@ const Navbar = () => {
             <div class="mid">
                 <ul class="navbar">
                     <li>
-                        <Link to="/">Home</Link>
+                        <link to="/">Home</link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <link to="/about">About</link>
                     </li>
                     <li>
-                        <Link to="/menu">Menu</Link>
+                        <link to="/menu">Menu</link>
                     </li>
                     <li>
-                        <Link to="/catering">Catering</Link>
+                        <link to="/catering">Catering</link>
                     </li>
                 </ul>
                 </div>
@@ -30,5 +35,8 @@ const Navbar = () => {
 
         </header>
     );
+
+    
 }
 export default Navbar;
+
