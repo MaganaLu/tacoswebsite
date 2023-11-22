@@ -43,7 +43,7 @@ function NavBar2() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/blog"
+                                to="/menu"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
@@ -54,7 +54,7 @@ function NavBar2() {
                         <li className="nav-item">
                             <NavLink
                                 exact
-                                to="/contact"
+                                to="/catering"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
@@ -68,11 +68,11 @@ function NavBar2() {
 
                         {click ? (
                             <span className="icon">
-                                <HamburgetMenuOpen />{" "}
+                                <HamburgetMenuClose />{" "}
                             </span>
                         ) : (
                             <span className="icon">
-                                <HamburgetMenuClose />
+                                <HamburgetMenuOpen />
                             </span>
                         )}
                     </div>

@@ -21,18 +21,17 @@
 }
 
 .nav-logo {
-    color: green;
-    align-items: center; 
+    color: black;
+    align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: min(5rem, 1rem);
     flex-grow: 1;
-    flex-shrink:1;
+    flex-shrink: 1;
     display: flex;
     align-items: center;
     justify-items: center;
     font-family: 'Montserrat', sans-serif;
-    
 }
 
     .nav-logo .icon {
@@ -95,12 +94,12 @@
         height: 2rem;
     }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 800px) {
     .nav-menu {
         display: flex;
         flex-direction: column;
         width: 100%;
-        border-top: 1pxsolid #fff;
+        border-top: 1px solid #fff;
         position: absolute;
         top: 80px;
         left: -110%;
