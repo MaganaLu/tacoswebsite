@@ -34,7 +34,7 @@ class MenuItem extends Component {
                             {itemInfo.description}
                         </p>
                         <p>
-                            {itemInfo.div}
+                            {itemInfo.englishDesc}
                         </p>
                     </div>
                 </div>

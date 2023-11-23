@@ -45,7 +45,7 @@
     display: flex;
     list-style: none;
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 0px;
 }
 
 .nav-links {
@@ -79,8 +79,8 @@
     }
 
     .nav-item .active {
-        color: yellowgreen;
-        border: 1px solid yellowgreen;
+        color: green;
+        border: 1px solid green;
     }
 
 .nav-icon {
@@ -98,32 +98,34 @@
     .nav-menu {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 50%;
         border-top: 1px solid #fff;
         position: absolute;
-        top: 80px;
-        left: -110%;
+        top: 60px;
+        left: 210%;
         opacity: 1;
         transition: all 0.5s ease;
+        border: 5px solid lightgrey;
     }
 
         .nav-menu.active {
-            background: #1f5156;
-            left: 0px;
+            background: white;
+            left: 20%;
+            right: 20%;
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
+           
         }
 
     .nav-item .active {
-        color: pink;
+        color: green;
         border: none;
     }
 
     .nav-links {
-        padding: 1.5rem;
-        width: 100%;
         display: table;
+        font-size:1vw;
     }
 
     .nav-logo .icon {

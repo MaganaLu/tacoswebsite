@@ -3,7 +3,7 @@ h1 {
 }
 
 .imgContainer {
-    width: 120px;
+    width: 150px;
 }
 
     .imgContainer img {
@@ -24,7 +24,6 @@ h1 {
     display: flex;
     align-items: center;
     min-width:50px;
-    background-color:pink;
 }
 
 .itemContainer {
