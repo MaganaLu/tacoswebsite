@@ -38,12 +38,19 @@ function App() {
             </Routes>
             <footer>
                 <div class='column'>
-                    <p>Contact Us</p>
+                    <p style={{ textDecoration: 'underline' }}>Contact Us</p>
                     <p>522 S Wenatchee Ave, Wenatchee, WA 98801</p>
                     <p>509-470-6925</p>
                 </div>
-                <div onClick={() => openInNewTab("https://www.facebook.com/profile.php?id=61550950803086&mibextid=LQQJ4d")} class='column' style={{cursor:'pointer'}}>
-                    Facebook
+                <div class='column'>
+                    <p style={{textDecoration:'underline'}}>Hours</p>
+                    <p>Sunday:  10 AM–6 PM</p>
+                    <p>Monday:  11 AM–7:30 PM</p>
+                    <p>Tuesday: 11 AM–7:30 PM</p>
+                    <p>Wednesday:   11 AM–7:30 PM</p>
+                    <p>Thursday:    11 AM–7:30 PM</p>
+                    <p>Friday:	11 AM–7:30 PM</p>
+                    <p>Saturday:	10 AM–8 PM</p>
                 </div>
                
                 

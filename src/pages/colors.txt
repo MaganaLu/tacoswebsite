@@ -7,8 +7,6 @@ brown: 244,227,201 = #f4e3c9
 pic brown: 100,85.5,67.1
 
 
-// need to add hours of operation 
 // and reviews to front page 
 // implement way to make online orders 
 // map location from google 
-// 
