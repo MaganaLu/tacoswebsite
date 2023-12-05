@@ -1,0 +1,38 @@
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    margin-right: 1rem;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(112, 80, 19);
+    border-radius: 10px;
+}
+
+.itemContainer {
+    width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.nameAndPriceContainer {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content:space-between;
+    border-bottom: 2px dotted rgb(112, 80, 19);
+}
+
+.textContainer {
+    margin-top: 1rem;
+    color: rgb(71, 99, 110);
+}

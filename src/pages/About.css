@@ -28,14 +28,24 @@
     justify-content: center;
     align-items: center;
     display:flex;
-    background-color:white;
+    
     flex-direction:column;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
-    background-color:white;
 }
+
+.roundedSeperator {
+    border-top: 3px solid #f4e3c9;
+    border-radius: 5px;
+    width: 5%;
+}
+
+.shiftText{
+    
+}
+
 
 /* medium screens */
 @media all and (min-width: 600px){
@@ -48,6 +58,7 @@
     .half-item{
         width: 100%;
     }
+    
 }
 /* large screens */
 @media all and (min-width: 800px){
@@ -60,6 +71,9 @@
     }
     .half-item {
         width: 50%;
+    }
+    .shiftText {
+        margin-right: 70vw;
     }
     
 }

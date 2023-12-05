@@ -26,8 +26,8 @@ function App() {
             <ScrollToTop />
             { /* Top of the top screen */}
             <header>
-                <FontAwesomeIcon icon={faFacebook}  onClick={() => openInNewTab("https://www.facebook.com")}  style={{marginLeft:'10px', marginRight:'10px'}} size="2x" />
-                <FontAwesomeIcon icon={faInstagram} size="2x" />
+                <FontAwesomeIcon icon={faFacebook} onClick={() => openInNewTab("https://www.facebook.com/profile.php?id=61550950803086&mibextid=LQQJ4d")} style={{ color: 'black', marginLeft: '10px', marginRight: '10px', cursor: 'pointer' }} size="2x" />
+                522 S Wenatchee Ave, Wenatchee, WA 98801
             </header>
             <Navbar2 />
             <Routes>
@@ -42,15 +42,10 @@ function App() {
                     <p>522 S Wenatchee Ave, Wenatchee, WA 98801</p>
                     <p>509-470-6925</p>
                 </div>
-                <div class='column'>
+                <div onClick={() => openInNewTab("https://www.facebook.com/profile.php?id=61550950803086&mibextid=LQQJ4d")} class='column' style={{cursor:'pointer'}}>
                     Facebook
                 </div>
-                <div class='column'>
-                    Instagram
-                </div>
-                <div class='column'>
-                    Taqueria El Tarasco
-                </div>
+               
                 
             </footer>
         </BrowserRouter>

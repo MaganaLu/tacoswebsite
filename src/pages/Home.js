@@ -14,6 +14,10 @@ import pizzaBirria from '../pictures/pizzabirria.jpg'
 import tacosBirria2 from '../pictures/tacosBirria2.jpg'
 import birriaTacos2 from '../pictures/birriatacos2.jpg'
 import cactusBg from '../pictures/cactusBg.png'
+import logo from '../pictures/TarascoLogo.jpg'
+import Burritos from '../pictures/burritos.jpg'
+import PizzaBirria from '../pictures/Pizzabirria2.jpg'
+import Quesabirrias from '../pictures/Quesabirrias.jpg'
 import { useNavigate } from "react-router-dom";
 
 
@@ -51,12 +55,12 @@ const Home = () => {
     };
 
     return (
-        <div class="parent">
+        <div class="parent" style={{ backgroundColor:'#f4e3c9' }}>
 
             <div class="carousel-item">
                 <Carousel
                     additionalTransfrom={0}
-                    arrows={false }
+                    arrows={false}
                     autoPlaySpeed={3000}
                     centerMode={false}
                     className=""
@@ -85,30 +89,40 @@ const Home = () => {
                 >
 
                     <img
-                        src={tacos1 }
+                        src={logo }
                         style={{
                             display: 'block',
-                            height: '100%',
+                            height: '40vw',
                             margin: 'auto',
-                            width: '100%'
+                            width: 'auto',
+                            
                         }}
                     />
                     <img
-                        src={ tacos2 }
+                        src={ storeFront }
                         style={{
                             display: 'block',
-                            height: '100%',
+                            height: '40vw',
                             margin: 'auto',
-                            width: '100%'
+                            width: 'auto'
                         }}
                     />
                     <img
-                        src={birriaTacos2}
+                        src={PizzaBirria}
                         style={{
                             display: 'block',
-                            height: '100%',
+                            height: '40vw',
                             margin: 'auto',
-                            width: '100%'
+                            width: 'auto'
+                        }}
+                    />
+                    <img
+                        src={Quesabirrias}
+                        style={{
+                            display: 'block',
+                            height: '40vw',
+                            margin: 'auto',
+                            width: 'auto'
                         }}
                     />
                     
@@ -133,18 +147,19 @@ const Home = () => {
                 </div>
                 
                 <div class='break'></div>
-
+                <hr class="rounded"></hr>
                 <img class="half-img-item" src={tacosBirria2}></img>
 
                 <div class="half-item">
-                    <p style={{ textShadow: '2px 2px black', color:'green', fontSize:'4rem', marginLeft: "10vw", marginRight: "10vw", textAlign: 'center' }}>WELCOME</p>
+                    <p style={{ color:'#6379a8', fontSize:'4rem', marginLeft: "10vw", marginRight: "10vw", textAlign: 'center' }}>WELCOME</p>
                     <p style={{ color: 'black', fontSize: '1.2rem', marginLeft: "10vw", marginRight: "10vw", textAlign: 'center' }}>
                         Welcome to Taqueria El Tarasco, a culinary oasis nestled in the heart of Wenatchee. Our esteemed establishment is dedicated to curating an exquisite dining experience steeped in the rich tapestry of authentic Mexican cuisine. With a commitment to culinary excellence and a reverence for tradition, we invite you to embark on a delicious journey that celebrates the diverse flavors and heritage of Mexico.</p>
                     <button onClick={changeRoute('about')} type="button">More About Us</button>
                 </div>
+                <hr class="rounded"></hr>
 
-                <div class="half-item" style={{ height: '500px', border: '1px solid red', width: '100%' }}>
-                    <p1 style={{ fontWeight:'bold',marginLeft: '10vw', marginRight: '10vw', color: 'black', fontSize: '1.5rem', textAlign: 'center' }}> At Taqueria El Tarasco, our offerings extend far beyond just tacos, although our tacos are undeniably exceptional! Our menu boasts an array of Mexican culinary essentials and traditional favorites to delight your palate</p1>
+                <div class="half-item" style={{ height: '500px', width: '100%' }}>
+                    <p1 style={{ marginLeft: '10vw', marginRight: '10vw', color: 'black', fontSize: '1.5rem', textAlign: 'center' }}> At Taqueria El Tarasco, our offerings extend far beyond just tacos, although our tacos are undeniably exceptional! Our menu boasts an array of Mexican culinary essentials and traditional favorites to delight your palate</p1>
                     <button onClick={changeRoute('menu')} type="button">View Menu</button>
                 </div>
 

@@ -20,7 +20,6 @@
 }
 
 .half-img-item {
-    height: 100px;
     flex-grow: 1;
     flex-shrink: 1;
     object-fit: fill;
@@ -33,7 +32,6 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: yellow;
     flex-direction: column;
 }
 

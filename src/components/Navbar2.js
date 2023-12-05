@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar2.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import pic from '../pictures/skeleton2.jpg';
+import TarascoLogo from '../pictures/TarascoLogo.jpg';
 
 function NavBar2() {
     const [click, setClick] = useState(false);
@@ -12,11 +13,13 @@ function NavBar2() {
         <>
             <nav className="navbar">
                 <div className="nav-container">
+
+                    
                     <NavLink exact to="/" className="nav-logo">
-                        <span>Taqueria El Tarasco</span>
+                        <img style={{ height: '80px', width: '150px' }} alt="El Tarasco" src={TarascoLogo}/>
                         
                     </NavLink>
-
+                    
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
                             <NavLink
