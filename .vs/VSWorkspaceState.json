@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\build\\static\\media",
     "\\src",
     "\\src\\data",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\colors.txt",
+  "SelectedNode": "\\build",
   "PreviewInSolutionExplorer": false
 }
